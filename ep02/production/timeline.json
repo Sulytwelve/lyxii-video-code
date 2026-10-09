@@ -1,0 +1,12 @@
+[
+  {"id":"holiday","start":0,"duration":5,"pose":0,"caption":"人回来了，电量没回来。"},
+  {"id":"enter","start":5,"duration":5,"pose":0,"caption":"人，你怎么比我还像在摸鱼？"},
+  {"id":"rice","start":10,"duration":6,"pose":1,"caption":"别急。先吃一碗热乎的。"},
+  {"id":"caught","start":16,"duration":5,"pose":2,"caption":"等一下……这碗不是给我的吗？"},
+  {"id":"full","start":21,"duration":6,"pose":3,"caption":"我帮你试过了。很好吃。"},
+  {"id":"sleep","start":27,"duration":6,"pose":4,"caption":"吃饱了，才有力气……休息。"},
+  {"id":"together","start":33,"duration":7,"pose":4,"caption":"原来，今天没电的不止我一个。"},
+  {"id":"tea","start":40,"duration":7,"pose":5,"caption":"这杯，真的给你。"},
+  {"id":"end","start":47,"duration":9,"pose":5,"caption":"假期结束了。你可以慢慢回来。"},
+  {"id":"credits","start":56,"duration":8,"pose":1,"caption":"非官方同人小剧场 · AI 辅助美术与代码动画"}
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "hook",
+    "chapter": "01 / 给 AI 一张账单",
+    "kind": "invoice",
+    "speaker": "host",
+    "text": "我每个月都在付钱，养一个 AI。能不能让它反过来，先养活自己的订阅？"
+  },
+  {
+    "id": "reply",
+    "chapter": "01 / 给 AI 一张账单",
+    "kind": "dialog",
+    "speaker": "ai",
+    "text": "目标已记录。当前收入，零元。"
+  },
+  {
+    "id": "joke",
+    "chapter": "01 / 给 AI 一张账单",
+    "kind": "dialog",
+    "speaker": "host",
+    "text": "很好。它已经学会了做报表，尚未学会收款。"
+  },
+  {
+    "id": "identity",
+    "chapter": "01 / 给 AI 一张账单",
+    "kind": "identity",
+    "speaker": "host",
+    "text": "这里是梨希，Lyxii。以前发过游戏视频，也在折腾软件。现在，想把折腾变成一个能追下去的实验。"
+  },
+  {
+    "id": "character",
+    "chapter": "01 / 给 AI 一张账单",
+    "kind": "character",
+    "speaker": "host",
+    "text": "目前这个形象，由 ChatGPT 临时生成。后续会找画师另外设计。先让这只梨，陪我们开工。"
+  },
+  {
+    "id": "bill",
+    "chapter": "01 / 给 AI 一张账单",
+    "kind": "budget",
+    "speaker": "host",
+    "text": "我的 Plus 月费，大约二十八点九八新加坡元。按我的预算估算，约一百五十元人民币。"
+  },
+  {
+    "id": "goal",
+    "chapter": "01 / 给 AI 一张账单",
+    "kind": "target",
+    "speaker": "host",
+    "text": "理想目标，每月一百五十。能补上一半，七十五元，也算有意义。"
+  },
+  {
+    "id": "reality",
+    "chapter": "01 / 给 AI 一张账单",
+    "kind": "zero",
+    "speaker": "host",
+    "text": "本期是开端。没有客户，没有实际收入。这个零，会一直留在画面上。"
+  },
+  {
+    "id": "assets",
+    "chapter": "02 / 它能拿什么去打工",
+    "kind": "portfolio",
+    "speaker": "host",
+    "text": "我们不是从空文件夹开始。梨窝是我的 Rust 网站，里面已经有小工具和小游戏。"
+  },
+  {
+    "id": "apps",
+    "chapter": "02 / 它能拿什么去打工",
+    "kind": "apps",
+    "speaker": "host",
+    "text": "比如 cURL 转代码，和公式漫游。我想继续做这种，规模不大，但打开就能用的东西。"
+  },
+  {
+    "id": "machine",
+    "chapter": "02 / 它能拿什么去打工",
+    "kind": "machine",
+    "speaker": "host",
+    "text": "手边有三十二 G 内存的笔记本，也有 Rust、Python 和嵌入式基础。先用这些，不添新账单。"
+  },
+  {
+    "id": "candidates",
+    "chapter": "02 / 它能拿什么去打工",
+    "kind": "candidates",
+    "speaker": "host",
+    "text": "大软件，维护压力大。批量内容，容易变成流水线。先选一个小而明确的问题。"
+  },
+  {
+    "id": "pain",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "pain",
+    "speaker": "host",
+    "text": "从视频创作开始。字幕重叠，时间写反，一长句话闪一下。观众根本看不完。"
+  },
+  {
+    "id": "assignment",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "brief",
+    "speaker": "host",
+    "text": "给 Codex 的第一份任务：做一个离线字幕检查器。这是我们的需求假设，还没验证市场。"
+  },
+  {
+    "id": "build",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "build",
+    "speaker": "ai",
+    "text": "检查逻辑、界面和测试已完成。无需 API，字幕在浏览器本地处理。"
+  },
+  {
+    "id": "demo_bad",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "demo_bad",
+    "speaker": "host",
+    "text": "这就是本期实际做出的梨字幕。故意带错的四条测试字幕，查出三项错误、三项提示。"
+  },
+  {
+    "id": "overlap",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "overlap",
+    "speaker": "host",
+    "text": "第一条还没结束，第二条已经出现了：重叠零点二秒。编号跳了、重复了，也会报出来。"
+  },
+  {
+    "id": "reverse",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "reverse",
+    "speaker": "host",
+    "text": "第三条，四秒开始，三点五秒结束。字幕试图穿越时间，检查器负责拦下来。"
+  },
+  {
+    "id": "fast",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "fast",
+    "speaker": "host",
+    "text": "这句只给零点三秒。你还没读完，它已经下班了。过短和阅读太快，都会标记。"
+  },
+  {
+    "id": "limit",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "limit",
+    "speaker": "host",
+    "text": "但它不会擅自把字幕后移。修好了重叠，也可能对不上声音。工具不能替人决定剪辑。"
+  },
+  {
+    "id": "demo_good",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "demo_good",
+    "speaker": "host",
+    "text": "换成人工调整后的测试样例，问题归零。这不是自动修复，也不代表观看效果一定完美。"
+  },
+  {
+    "id": "tests",
+    "chapter": "03 / 先交一件能用的东西",
+    "kind": "tests",
+    "speaker": "ai",
+    "text": "十二项测试通过。包括边界相接、嵌套重叠、非法时间码和 Windows 换行。原文不改写。"
+  },
+  {
+    "id": "product",
+    "chapter": "04 / 有作品，然后呢",
+    "kind": "product",
+    "speaker": "host",
+    "text": "交出了一件能用的工具。但代码写完，和有人愿意付钱，还隔着一段路。"
+  },
+  {
+    "id": "market",
+    "chapter": "04 / 有作品，然后呢",
+    "kind": "market",
+    "speaker": "host",
+    "text": "字幕检查并不是没人做过。我们没有验证付费需求，所以不会给它贴畅销标签。"
+  },
+  {
+    "id": "loop",
+    "chapter": "04 / 有作品，然后呢",
+    "kind": "loop",
+    "speaker": "host",
+    "text": "下一步，让少量创作者试用。问哪里省事、哪里多余，再决定继续开发什么。"
+  },
+  {
+    "id": "channels",
+    "chapter": "04 / 有作品，然后呢",
+    "kind": "channels",
+    "speaker": "host",
+    "text": "软件做作品，视频记过程。网站展示，爱发电自愿支持。有渠道，不等于有收入。"
+  },
+  {
+    "id": "ledger",
+    "chapter": "04 / 有作品，然后呢",
+    "kind": "ledger",
+    "speaker": "host",
+    "text": "销售、赞助分开记，再扣退款、手续费和额外开销。我的时间也得记，不能当作免费。"
+  },
+  {
+    "id": "math",
+    "chapter": "04 / 有作品，然后呢",
+    "kind": "math",
+    "speaker": "host",
+    "text": "假设每份净贡献十五元，十份才够一百五十。这是算术假设，不是定价，也不是销量预测。"
+  },
+  {
+    "id": "boundary",
+    "chapter": "04 / 有作品，然后呢",
+    "kind": "boundary",
+    "speaker": "host",
+    "text": "AI 构思、写代码和制作。我负责审核、发布、收款。自己赚钱，其实是我们合作做验证。"
+  },
+  {
+    "id": "schedule",
+    "chapter": "05 / 从零开始，也算开始",
+    "kind": "schedule",
+    "speaker": "host",
+    "text": "学校环境暂时不方便直播，先用视频记录。以后条件合适，再直播开发过程和我们的互动。"
+  },
+  {
+    "id": "score",
+    "chapter": "05 / 从零开始，也算开始",
+    "kind": "score",
+    "speaker": "host",
+    "text": "第一期结算：一个原型，一支原创视频。收入仍是零。订阅没养活，开工的证据倒是有了。"
+  },
+  {
+    "id": "end",
+    "chapter": "05 / 从零开始，也算开始",
+    "kind": "end",
+    "speaker": "host",
+    "text": "你最想省掉创作中的哪一步？欢迎告诉梨希。下一步，先验证需求，做出值得被使用的东西。"
+  }
+]

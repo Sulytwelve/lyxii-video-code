@@ -1,0 +1,9 @@
+[
+  {"id":"rules","start":0,"duration":4,"title":"三条家规"},
+  {"id":"rice","start":4,"duration":9,"title":"第一条：不准只吃白饭"},
+  {"id":"touch","start":13,"duration":10,"title":"第二条：不准摸鱼"},
+  {"id":"sleep","start":23,"duration":11,"title":"第三条：不准偷懒"},
+  {"id":"together","start":34,"duration":8,"title":"第四条：饭要一起吃"},
+  {"id":"dance","start":42,"duration":6,"title":"家规最终解释权：一起开心"},
+  {"id":"credits","start":48,"duration":6,"title":"来源与制作"}
+]

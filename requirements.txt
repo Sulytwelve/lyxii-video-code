@@ -1,0 +1,4 @@
+# Versions used in the original local production environment.
+Pillow==12.3.0
+numpy==2.5.3
+edge-tts==7.2.8
